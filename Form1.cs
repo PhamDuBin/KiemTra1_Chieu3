@@ -21,5 +21,16 @@ namespace KiemTra1_Chieu3
         {
 
         }
+
+        private void btnlogin_Click(object sender, EventArgs e)
+        {
+            String userName = txtUserName.Text;
+            String passWord = txtpassword.Text;
+            if(userName == "admin" && passWord == "admin")
+            {
+                TrangChu TrangChu = new TrangChu();
+                TrangChu.Show();
+            }
+        }
     }
 }
