@@ -16,5 +16,10 @@ namespace KiemTra1_Chieu3
         {
             InitializeComponent();
         }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
